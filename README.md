@@ -120,7 +120,7 @@ These were the first assignments of the year so kind of refreshed everything in 
 ## LCD Backpack
 This assignment was pretty much the same as the Hellow LCD, but circuit and wiring was much clear and suficiente than Hello LCD. We used more libraries to give more functionality. 
 ### Wiring
-<br><img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg"
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg">
 ### Code
 ```C
 
