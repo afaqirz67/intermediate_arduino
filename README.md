@@ -9,9 +9,9 @@
 * [HELLO LCD](#HELLO-LCD)
 * [A LITTLE PRACTICE](#A-Little-Practice)
 * [LCD Backpack](#LCD-Backpack)
-* [SWEEPS AND LOFTS](#Sweeps and Lofts)
-* [HELLO FUNCTIONS](#Hello Functions)
-* [NEW PING](#New Ping)
+* [SWEEPS AND LOFTS](#Sweeps-and-Lofts)
+* [HELLO FUNCTIONS](#Hello-Functions)
+* [NEW PING](#New-Ping)
 * [SERVO](#SERVO)
 * [DISTANCE SENSOR](#DISTANCE-SENSOR)
 
