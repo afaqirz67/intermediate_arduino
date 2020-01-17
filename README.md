@@ -8,12 +8,10 @@
 * [LED FADE](#LED-FADE)
 * [HELLO LCD](#HELLO-LCD)
 * [A LITTLE PRACTICE](#A-Little-Practice)
-* [LCD Backpack](#LCD-Backpack)
+* [LCD BACKPACK](#LCD-Backpack)
 * [SWEEPS AND LOFTS](#Sweeps-and-Lofts)
 * [HELLO FUNCTIONS](#Hello-Functions)
 * [NEW PING](#New-Ping)
-* [SERVO](#SERVO)
-* [DISTANCE SENSOR](#DISTANCE-SENSOR)
 
 
   
