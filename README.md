@@ -117,9 +117,9 @@ These were the first assignments of the year so kind of refreshed everything in 
 
 
 
-## LCD Backpack
+# LCD Backpack
 This assignment was pretty much the same as the Hellow LCD, but circuit and wiring was much clear and suficiente than Hello LCD. We used more libraries to give more functionality. 
-### Wiring
+## Wiring
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg">
 ### Code
 ```C
@@ -169,16 +169,16 @@ a--;
  oldButtonState = buttonState; 
 }
 ```
-### Lessons Learned
+#### Lessons Learned
 The lesson I learned from this assignment was shortcut way of wiring an LCD screen.
 
 
 
 
 
-## Sweeps and Lofts
+# Sweeps and Lofts
 This assignment includes using lofted cuts, revolves and sweeps. We were to sketch a hammer head and we had the choice to make a handle for it or not. Same as the last assignment we used a tutorial that's in SolidWorks.
-### Picture
+## Picture
 picture or fritzing image goes here
 
 
