@@ -123,7 +123,6 @@ This assignment was pretty much the same as the Hellow LCD, but circuit and wiri
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg">
 ### Code
 ```C
-
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h> 
 LiquidCrystal_I2C lcd(0x27,16,2);
