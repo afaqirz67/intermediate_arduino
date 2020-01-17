@@ -179,13 +179,10 @@ The lesson I learned from this assignment was shortcut way of wiring an LCD scre
 
 
 ## Sweeps and Lofts
-Description goes here:
-
-### Wiring
+This assignment includes using lofted cuts, revolves and sweeps. We were to sketch a hammer head and we had the choice to make a handle for it or not. Same as the last assignment we used a tutorial that's in SolidWorks.
+### Picture
 picture or fritzing image goes here
 
-### Code
-link to code here, or copy your code in,  look at conrad's github page (cheins48)
 
 ### Lessons Learned
-Put your reflection here
+I learned how to use lofted cuts, revolves and sweepes by doing this assignment. I had trouble with the Flex, but after playing with it for a while I figured out how it works.  
