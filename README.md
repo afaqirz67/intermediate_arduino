@@ -20,6 +20,8 @@ Using CirciutPython I developed code to make an led light slowly get brighter an
 ### Wiring
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
 Fritzing from [Tim Wiessman's github page] 
+
+
 ### Code
  
 ```C
