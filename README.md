@@ -117,11 +117,12 @@ These were the first assignments of the year so kind of refreshed everything in 
 
 
 
-# LCD Backpack
+##LCD Backpack
 This assignment was pretty much the same as the Hellow LCD, but circuit and wiring was much clear and suficiente than Hello LCD. We used more libraries to give more functionality. 
 ## Wiring
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg">
 ### Code
+
 ```C
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h> 
@@ -169,7 +170,8 @@ a--;
  oldButtonState = buttonState; 
 }
 ```
-#### Lessons Learned
+
+### Lessons Learned
 The lesson I learned from this assignment was shortcut way of wiring an LCD screen.
 
 
