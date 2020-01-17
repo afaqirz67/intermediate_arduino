@@ -10,10 +10,10 @@
 * [A LITTLE PRACTICE](#A Little Practice)
 * [LCD Backpack](#LCD-Backpack)
 * [SWEEPS AND LOFTS](#Sweeps and Lofts)
+* [HELLO FUNCTIONS](#Hello Functions)
+* [NEW PING](#New Ping)
 * [SERVO](#SERVO)
 * [DISTANCE SENSOR](#DISTANCE-SENSOR)
-* [HELLO VS CODE](#HELLO-VS-CODE)
-* [FANCY LED](#FANCY-LED)
 
 
   
@@ -186,3 +186,34 @@ picture or fritzing image goes here
 
 ### Lessons Learned
 I learned how to use lofted cuts, revolves and sweepes by doing this assignment. I had trouble with the Flex, but after playing with it for a while I figured out how it works.  
+
+# Hello Functions
+Description...
+
+
+## Fritzing 
+
+
+
+### Lessons Learned
+
+
+
+
+
+
+# New Ping
+Description
+
+
+## Picture
+
+
+
+
+### Lessons Learned
+
+
+
+
+
