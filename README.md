@@ -14,18 +14,12 @@
 * [NEW PING](#New-Ping)
 
 
-  
-
 
  ## LED FADE
- 
 Using CirciutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. To do this I had to utilize PWM, pulse width modification, and dutycycle which control the amount of energy/pulse/voltage that is sent to the the LED making it fade.  
 ### Wiring
-picture or fritzing image goes here
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
-Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitPython) 
-
-
+Fritzing from [Tim Wiessman's github page] 
 ### Code
  
 ```C
@@ -70,10 +64,11 @@ My LED fade code [link](https://github.com/lwielar29/CircutPython/blob/master/fa
 
 
 
-
 ## Hello LCD
 I used this tutorial for doing this assignment(https://learn.adafruit.com/character-lcds/wiring-a-character-lcd)
 ### Wiring
+<img src=https://github.com/jbrown56/Intermediate-Arduino/blob/master/hello_LCD/hello_lcd_fritzing.jpeg>
+
 ### Code
 ```C
 #include <LiquidCrystal.h>
