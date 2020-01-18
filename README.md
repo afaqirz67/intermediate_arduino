@@ -1,5 +1,5 @@
 # intermediate_arduino
-2019-2020 // Engineering 3 //All pictures are from [Tim Wiessman's github page](https://github.com/tweissm35) 
+2019-2020 // Engineering 2 //All pictures are from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
 
 
@@ -7,11 +7,7 @@
 * [TABLE OF CONTENTS](#TABLE-OF-CONTENTS)
 * [LED FADE](#LED-FADE)
 * [HELLO LCD](#HELLO-LCD)
-* [A LITTLE PRACTICE](#A-Little-Practice)
 * [LCD BACKPACK](#LCD-Backpack)
-* [SWEEPS AND LOFTS](#Sweeps-and-Lofts)
-* [HELLO FUNCTIONS](#Hello-Functions)
-* [NEW PING](#New-Ping)
 
 
 
@@ -60,8 +56,6 @@ void loop() {
 ### Lessons Learned
 I learned the basics of Circuitpython and its differences from arduino coding. Specifically, I learned how to import libraries into Circuitpython by writing at the top of your code "import *library*". I also gained an understanding of dutycycle, the part of the code that controls the amount of time the led is ON compared to the time it taks to complete the cycle. This caused the LED to fade. [More info for PWM](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
  
-My LED fade code [link](https://github.com/lwielar29/CircutPython/blob/master/fade.py)
-
 
 
 
@@ -96,19 +90,6 @@ void loop() {
 
 ### Lessons Learned
 I learned that there are different libraries are there to provide extra functionality and you have to find the right one to make it work. 
-
-
-
-
-## A Little Practice
-In this assignment we were supposed to follow a tutorial provided by SolidWorks itself and have to different parts done. One part which included an assembly and a part and the second one just included just one part.
-### Wiring
-picture or fritzing image goes here
-
-### Lessons Learned
-These were the first assignments of the year so kind of refreshed everything in my memorry and the new skill I learned by doing this assignment was how to use Linear Patern. It basically allows you to copy your drawn sketch multiple times in a specific pattern.  
-
-
 
 
 
@@ -168,47 +149,3 @@ a--;
 
 ### Lessons Learned
 The lesson I learned from this assignment was shortcut way of wiring an LCD screen.
-
-
-
-
-
-# Sweeps and Lofts
-This assignment includes using lofted cuts, revolves and sweeps. We were to sketch a hammer head and we had the choice to make a handle for it or not. Same as the last assignment we used a tutorial that's in SolidWorks.
-## Picture
-picture or fritzing image goes here
-
-
-### Lessons Learned
-I learned how to use lofted cuts, revolves and sweepes by doing this assignment. I had trouble with the Flex, but after playing with it for a while I figured out how it works.  
-
-# Hello Functions
-Description...
-
-
-## Fritzing 
-
-
-
-### Lessons Learned
-
-
-
-
-
-
-# New Ping
-Description
-
-
-## Picture
-
-
-
-
-### Lessons Learned
-
-
-
-
-
