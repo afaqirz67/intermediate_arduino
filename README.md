@@ -61,7 +61,9 @@ I learned the basics of Circuitpython and its differences from arduino coding. S
 
 
 ## Hello LCD
-I used this tutorial for doing this assignment(https://learn.adafruit.com/character-lcds/wiring-a-character-lcd)
+I used the tutorial linked bellow for doing this assignment.
+https://learn.adafruit.com/character-lcds/wiring-a-character-lcd
+
 ### Wiring
 <img src=https://github.com/jbrown56/Intermediate-Arduino/blob/master/hello_LCD/hello_lcd_fritzing.jpeg>
 
