@@ -94,7 +94,7 @@ I learned that there are different libraries are there to provide extra function
 
 
 
-##LCD Backpack
+## LCD Backpack
 This assignment was pretty much the same as the Hello LCD, but circuit and wiring was much clear and suficiente than Hello LCD. We used more libraries to give more functionality. 
 ## Wiring
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg">
