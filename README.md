@@ -149,4 +149,4 @@ a--;
 ```
 
 ### Lessons Learned
-The lesson I learned from this assignment was shortcut way of wiring an LCD screen.
+I learned the shortcut way of wiring an LCD screen by doing this assignment.
