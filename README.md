@@ -8,6 +8,7 @@
 * [LED FADE](#LED-FADE)
 * [HELLO LCD](#HELLO-LCD)
 * [LCD BACKPACK](#LCD-Backpack)
+* [PHOTO INTERRUPTER](#Photointrrupter)
 
 
 
@@ -150,3 +151,54 @@ a--;
 
 ### Lessons Learned
 I learned the shortcut way of wiring an LCD screen by doing this assignment.
+
+# Photointerrupter 
+
+In this assignment we were supposed to wire up a circuit that's supposed to turn on an LED when there was an object in between two legs of the Photointerrupter. I used [this](https://github.com/zdeguzm53/CircuitPython) github account as a guid for doing this assignment.
+
+### Circuit
+<img src="https://github.com/zdeguzm53/CircuitPython/blob/master/pictures/photointerrupter_pic.PNG"> 
+
+## Code
+// Photointerrupter 
+//Asadullah
+//This code will turn on an LED when something is in between the legs of photo interrupter.
+
+const int GatePin2 = 0; //setup integers and declare
+const int GatePin3 = 1;
+const int LEDPin = 9;
+int counter = 0;
+int Blocked;
+ 
+ 
+void setup()
+{
+Serial.begin(9600);
+pinMode(LEDPin, OUTPUT);
+attachInterrupt(GatePin2, LEDon, RISING); //tells the light to turn on when the photoresistor is bloacked
+attachInterrupt(GatePin3, LEDoff, FALLING); //tells the light to turn off when the photoresistor isn't blocked
+}
+ 
+void loop(){
+ 
+}
+ 
+ 
+ void LEDon()
+{
+  digitalWrite(LEDPin, HIGH); //allows the LED to turn on
+  counter ++; //increases the counter by one
+ 
+ 
+  Serial.println("");  
+  Serial.print("LEDon Interruptions:");
+  Serial.print(counter);
+ 
+}
+void LEDoff()
+{
+  digitalWrite(LEDPin, LOW); //allows for the LED to be turned off
+}
+
+### Lessons Learned
+This assignment wasn't that hard, but I was a little trickey. At first, I didn't quiet get what the instructions were supposed to mean. I struggled with the wirring a little too, but after some research I got what I had to do and recognized what my mistake was. I had the negative wire of the Photointerrupter and the positive wire of the photointerrupter wired in wrong order. That was the only part I run into a problem. After I switched the wires the circut was working fine and there wasn't any problem with the code. 
