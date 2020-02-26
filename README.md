@@ -160,6 +160,7 @@ In this assignment we were supposed to wire up a circuit that's supposed to turn
 <img src="https://github.com/zdeguzm53/CircuitPython/blob/master/pictures/photointerrupter_pic.PNG"> 
 
 ## Code
+```C 
 // Photointerrupter 
 //Asadullah
 //This code will turn on an LED when something is in between the legs of photo interrupter.
@@ -202,3 +203,4 @@ void LEDoff()
 
 ### Lessons Learned
 This assignment wasn't that hard, but I was a little trickey. At first, I didn't quiet get what the instructions were supposed to mean. I struggled with the wirring a little too, but after some research I got what I had to do and recognized what my mistake was. I had the negative wire of the Photointerrupter and the positive wire of the photointerrupter wired in wrong order. That was the only part I run into a problem. After I switched the wires the circut was working fine and there wasn't any problem with the code. 
+```
