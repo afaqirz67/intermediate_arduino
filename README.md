@@ -1,5 +1,5 @@
 # intermediate_arduino
-2019-2020 // Engineering 2 //All pictures are from [Tim Wiessman's github page](https://github.com/tweissm35) 
+2019-2020 | Engineering 2 |All pictures are from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
 
 
