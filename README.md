@@ -212,6 +212,7 @@ void LEDoff()
 {
   digitalWrite(LEDPin, LOW); //allows for the LED to be turned off
 }
+```
 
 ### Lessons Learned
 This assignment wasn't that hard, but I was a little trickey. At first, I didn't quiet get what the instructions were supposed to mean. I struggled with the wirring a little too, but after some research I got what I had to do and recognized what my mistake was. I had the negative wire of the Photointerrupter and the positive wire of the photointerrupter wired in wrong order. That was the only part I run into a problem. After I switched the wires the circut was working fine and there wasn't any problem with the code. 
