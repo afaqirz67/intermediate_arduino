@@ -22,6 +22,10 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35)
 ### Code
  
 ```C
+//LED FADE
+//Asadullah
+//This code will change the brightness of the led.
+
 int led = 9;           // the PWM pin the LED is attached to
 int brightness = 0;    // how bright the LED is
 int fadeAmount = 5;    // how many points to fade the LED by
@@ -62,13 +66,16 @@ I learned the basics of Circuitpython and its differences from arduino coding. S
 
 
 ## Hello LCD
-I used [this](https://learn.adafruit.com/character-lcds/wiring-a-character-lcd) for doing Hello LCD assignment.
+I used [this](https://learn.adafruit.com/character-lcds/wiring-a-character-lcd) for doing Hello LCD assignment. We were supposed to wire up an LCD Screen and Code it to print "Hello" on it's screen.
 
 ### Wiring
 <img src=https://github.com/jbrown56/Intermediate-Arduino/blob/master/hello_LCD/hello_lcd_fritzing.jpeg>
 
 ### Code
 ```C
+//Hello LCD
+//Asadullah
+//Set up a LCD Screen and Print "HELLO" on it's screen.
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
@@ -96,12 +103,15 @@ I learned that there are different libraries are there to provide extra function
 
 
 ## LCD Backpack
-This assignment was pretty much the same as the Hello LCD, but circuit and wiring was much clear and suficiente than Hello LCD. We used more libraries to give more functionality. 
+This assignment was pretty much the same as the Hello LCD, but circuit and wiring was much clear and suficiente than Hello LCD. We used more libraries to give more functionality. It was supposed to count on numbers while the button is pressed.
 ## Wiring
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg">
 ### Code
 
 ```C
+//LCD Backpack
+//Asadullah
+//Count when the button is pressed.
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h> 
 LiquidCrystal_I2C lcd(0x27,16,2);
