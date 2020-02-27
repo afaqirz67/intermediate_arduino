@@ -8,7 +8,7 @@
 * [LED FADE](#LED-FADE)
 * [HELLO LCD](#HELLO-LCD)
 * [LCD BACKPACK](#LCD-Backpack)
-* [Photointerrupter](#Photointrrupter)
+* [PHOTOINTERRUPTER](#Photointerrupter)
 
 
 
