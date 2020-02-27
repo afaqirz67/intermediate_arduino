@@ -168,10 +168,10 @@ I learned the shortcut way of wiring an LCD screen by doing this assignment.
 
 In this assignment we were supposed to wire up a circuit that's supposed to turn on an LED when there was an object in between two legs of the Photointerrupter. I used [this](https://github.com/zdeguzm53/CircuitPython) github account as a guid for doing this assignment.
 
-### Circuit
+## Circuit
 <img src="https://github.com/zdeguzm53/CircuitPython/blob/master/pictures/photointerrupter_pic.PNG"> 
 
-## Code
+### Code
 ```C 
 // Photointerrupter 
 //Asadullah
