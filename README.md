@@ -9,6 +9,9 @@
 * [HELLO LCD](#HELLO-LCD)
 * [LCD BACKPACK](#LCD-Backpack)
 * [PHOTOINTERRUPTER](#Photointerrupter)
+* [POTENTIOMETER](#Potentiometer)
+* [MOTOR CONTROL](#Motro-Control)
+
 
 
 
@@ -215,5 +218,152 @@ void LEDoff()
 ```
 
 ### Lessons Learned
-This assignment wasn't that hard, but I was a little trickey. At first, I didn't quiet get what the instructions were supposed to mean. I struggled with the wirring a little too, but after some research I got what I had to do and recognized what my mistake was. I had the negative wire of the Photointerrupter and the positive wire of the photointerrupter wired in wrong order. That was the only part I run into a problem. After I switched the wires the circut was working fine and there wasn't any problem with the code. 
+This assignment wasn't that hard, but I was a little trickey. At first, I didn't quiet get what the instructions were supposed to mean. I struggled with the wirring a little too, but after some research I got what I had to do and recognized what my mistake was. I had the negative wire of the Photointerrupter and the positive wire of the photointerrupter wired in wrong order. That was the only part I run into a problem. After I switched the wires the circut was working fine and there wasn't any problem with the code.
+
+
+# Potentiometer
+
+Description
+
+## Picture
+
+
+
+### COde
+```C
+#include <LiquidCrystal.h>
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+int potPin = A0;       // Analog pin 0 for the LED brightness potentiometer
+int ledPin = 6;        // LED Digital Pin with PWM
+int potValue = 0;      // variable to store the value coming from the potentiometer
+int brightness = 0;    // converts the potValue into a brightness
+int pBari = 0;         // progress bar
+int i = 0;             // foor loop
+
+//progress bar character for brightness
+byte pBar[8] = {
+  B11111,
+  B11111,
+  B11111,
+  B11111,
+  B11111,
+  B11111,
+  B11111,
+};
+
+void setup() {
+  // setup our led as an OUTPUT
+  pinMode(ledPin, OUTPUT);
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD
+  lcd.print(" LED Brightness");
+  //Create the progress bar character
+  lcd.createChar(0, pBar);
+}
+
+void loop() {
+  // clears the LCD screen
+  lcd.clear();
+  // Print a message to the LCD
+  lcd.print(" LED Brightness");
+  //set the cursor to line number 2
+  lcd.setCursor(0,1);
+  // read the value from the potentiometer
+  potValue = analogRead(potPin);        
+  // turns the potValue into a brightness for the LED
+  brightness=map(potValue, 0, 1024, 0, 255);
+  //lights up the LED according to the bightness
+  analogWrite(ledPin, brightness);
+  // turns the brighness into a percentage for the bar
+  pBari=map(brightness, 0, 255, 0, 17);
+  //prints the progress bar
+  for (i=0; i < pBari; i++)
+  {
+    lcd.setCursor(i, 1);  
+    lcd.write(byte(0));  
+  }
+  // delays 750 ms
+  delay(250);        
+}
+
+
+Displaying Screenshot 2020-03-05 at 7.20.31 PM.png.
 ```
+
+### Lessons Learned
+
+
+
+
+# Motor Control
+Description
+
+
+
+## Picture
+
+
+### Code
+```C
+int analogInPin = A0;
+int transistorPin = 3;
+
+int sensorValue = 0;
+int outputValue = 0;
+
+
+void setup()
+
+{
+  Serial.begin(9600);
+ 
+  pinMode(transistorPin, OUTPUT);
+
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+
+{
+
+  sensorValue = analogRead(analogInPin);
+
+  outputValue = map(sensorValue, 0, 1023, 0, 255);
+  // outputValue = map(analogRead(analogInPin), 0, 1023, 0 255);
+
+  analogWrite(transistorPin, outputValue);
+
+  if (sensorValue >= 160)
+
+  {
+
+    //example
+
+    digitalWrite(8, HIGH);
+
+    digitalWrite(9, LOW);
+
+  }
+
+  else
+
+  { digitalWrite(9, HIGH);
+
+    digitalWrite(8, LOW);
+
+  }
+
+  delay(10);
+}
+
+
+Displaying Screenshot 2020-03-05 at 7.20.31 PM.png.
+```
+
+### Lessons Learned 
+
+
