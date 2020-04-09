@@ -172,7 +172,7 @@ I learned the shortcut way of wiring an LCD screen by doing this assignment.
 In this assignment we were supposed to wire up a circuit that's supposed to turn on an LED when there was an object in between two legs of the Photointerrupter. I used [this](https://github.com/zdeguzm53/CircuitPython) github account as a guid for doing this assignment.
 
 ## Circuit
-<img src="https://github.com/zdeguzm53/CircuitPython/blob/master/pictures/photointerrupter_pic.PNG"> 
+<img src=https://github.com/ktremag/Engineering-/raw/master/Media/motor%20control.jpg> 
 
 ### Code
 ```C 
@@ -226,10 +226,10 @@ This assignment wasn't that hard, but I was a little trickey. At first, I didn't
 Description
 
 ## Picture
+<img src = https://github.com/ktremag/Engineering-/blob/master/Media/lcd_blink.jpg>
 
 
-
-### COde
+### Code
 ```C
 #include <LiquidCrystal.h>
 
@@ -304,6 +304,7 @@ Description
 
 
 ## Picture
+<img src=https://github.com/ktremag/Engineering-/blob/master/Media/motor%20control.jpg>
 
 
 ### Code
